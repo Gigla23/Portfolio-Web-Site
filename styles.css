@@ -1,0 +1,85 @@
+* {
+    font-family: 'Source Sans Pro',sans-serif;
+    margin: 0;
+    font-size: 80%;
+}
+
+.body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: rgb(255,255,255);
+    box-shadow: 0 10px 100px rgba(0,0,0,0.1);
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3.5rem;
+}
+
+.logoContainer {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    color: rgb(0,0,0);
+    transition: color .3s;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.nameLname {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.nameLname:hover {
+    color: rgb(39, 39, 146);
+}
+
+.menu {
+    display: flex;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(39, 39, 146);
+}
+
+.mylist {
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    color: rgb(0,0,0);
+}
+
